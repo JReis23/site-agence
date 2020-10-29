@@ -1,0 +1,62 @@
+@charset "UTF-8";
+
+
+body {
+    background-color: white; height: 640px;
+}
+
+nav {float:left;
+
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    }
+    nav a:hover {
+        color: yellow;
+    }
+
+header{background-color: tomato;}
+
+ul {
+    list-style: none;
+}
+
+aside {
+    float: right;
+    background-color: red; float: right; color: white; font-size: 1.2em; width: 580px; border: solid;
+}
+
+
+
+footer {
+    background-color: brown; clear: both; padding-top: 2em; color: white;
+}
+
+#conteneur {
+    background-color: green;
+}
+
+#news {
+    background-color: grey;
+} 
+
+#commentaires {
+    background-color: violet;
+}
+
+#article1{background-color: yellow;}
+
+span{
+    display: flex;
+
+}
+
+#conteneur{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
